@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/24/11/4b/24114b1e6a435c51c501ddc7b5fb4def.jpg);
+    margin:0%;
+   
+}
+menu{
+  background-color: antiquewhite;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+}
+nav>a{
+  color: gray;
+  background-color: antiquewhite;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  
+}
+nav>a:hover{
+  background-image: linear-gradient(to right,yellow ,rgb(238, 184, 6),rgb(242, 116, 7));
+  transition: 1s;
+}
+section{
+  background-color: aliceblue;
+  margin: auto;
+  padding: 8px
+  
+}
+
+div.quadrado{
+ background-color: gray;
+ display: inline-block;
+ border: 1px solid black;
+ border-radius: 10px;
+ width: 300px;
+ height: 300px;
+}
+div#q1{
+ background-color: aqua;
+}
+div#q2{
+ background-image: linear-gradient(to bottom ,yellow,orange);
+}
+div#q3{
+  background-image: url(imagens-cap19/wallpaper001.jpg);
+}
+
+/* pag 02 */
+
+div.bloco{
+    background-image:url(imagens-cap19/wallpaper003.jpg) ;
+    height: 200px;
+    border: 2px solid black;
+    border-radius:20px ;
+    margin:10px ;
+}
+
+div#bc1{
+  background-position: left top ;
+}
+div#bc2{
+  background-position: center center ;
+}
+div#bc3{
+  background-position: right bottom  ;
+}
